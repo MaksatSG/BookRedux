@@ -16,7 +16,7 @@ class Cart extends Component{
 			};
 		}
 
-		componentDidMount(){
+		componentWillMount(){
 			this.props.getCart();
 		}
 		onCheckout(){
